@@ -11,7 +11,7 @@ params={
 }
 
 
-url='http://0.0.0.0:9876/test'
+url='http://127.0.0.1:9876/test'
 
 time1=time.time()
 html = requests.post(url, json.dumps(params))

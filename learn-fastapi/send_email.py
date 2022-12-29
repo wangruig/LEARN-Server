@@ -8,9 +8,9 @@ mail_user = ''
 password = ''
 
 #邮件发送方邮箱地址
-sender = 'wang_ruiguo1012@163.com'
+sender = ''
 #邮件接受方邮箱地址
-receivers = ['wangrg@dchealth.com']
+receivers = ['']
 
 message = MIMEText('相关程序重启失败，请尽快上线解决！','plain','utf-8')
 #邮件主题       
